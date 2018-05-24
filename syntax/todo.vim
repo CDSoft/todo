@@ -1,4 +1,4 @@
-" Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+" Copyright © 2013, 2016, 2018 Christophe Delord (cdsoft.fr)
 " This work is free. You can redistribute it and/or modify it under the
 " terms of the Do What The Fuck You Want To Public License, Version 2,
 " as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
@@ -41,6 +41,6 @@ highlight taskQuestionIcon guifg=black guibg=NONE gui=bold ctermfg=black ctermbg
 
 syntax match sectionTitleLine "^.*:\s*$" contains=sectionTitle
 syntax match sectionTitle "\S.*:\s*$"
-highlight sectionTitle guifg=blue guibg=NONE gui=bold,underline ctermfg=blue ctermbg=NONE cterm=bold,underline
+highlight sectionTitle guifg=blue guibg=darkgrey gui=bold,underline ctermfg=blue ctermbg=NONE cterm=bold,underline
 
 let b:current_syntax = "todo"
