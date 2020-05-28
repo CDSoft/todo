@@ -4,7 +4,7 @@ Todo plugin for Vim
 This Vim plugin is based on vim-task (github.com/samsonw/vim-task).
 It helps managing todo lists within Vim in a very basic but efficient way.
 
-The latest version of todo can be found here: cdsoft.fr/todo
+The latest version of todo can be found here: cdelord.fr/todo
 
 Installation
 ------------
@@ -45,7 +45,7 @@ other key that suits you best.
 
 ### License
 
-Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+Copyright © 2013, 2016 Christophe Delord (cdelord.fr)
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,

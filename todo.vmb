@@ -1,4 +1,4 @@
-" Vimball Archiver by Charles E. Campbell, Jr., Ph.D.
+" Vimball Archiver by Charles E. Campbell
 UseVimball
 finish
 doc/todo.txt	[[[1
@@ -8,7 +8,7 @@ Todo plugin for Vim:
 This Vim plugin is based on vim-task (github.com/samsonw/vim-task).
 It helps managing todo lists within Vim in a very basic but efficient way.
 
-The latest version of todo can be found here: cdsoft.fr/todo
+The latest version of todo can be found here: cdelord.fr/todo
 
 Contributions are possible on GitHub: https://github.com/CDSoft.fr/todo
 
@@ -48,14 +48,14 @@ Usage:
 
 License:
 
-    Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+    Copyright © 2013, 2016 Christophe Delord (cdelord.fr)
     This work is free. You can redistribute it and/or modify it under the
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
 
 syntax/todo.vim	[[[1
-46
-" Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+48
+" Copyright © 2013, 2016, 2018 Christophe Delord (cdelord.fr)
 " This work is free. You can redistribute it and/or modify it under the
 " terms of the Do What The Fuck You Want To Public License, Version 2,
 " as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
@@ -98,12 +98,14 @@ highlight taskQuestionIcon guifg=black guibg=NONE gui=bold ctermfg=black ctermbg
 
 syntax match sectionTitleLine "^.*:\s*$" contains=sectionTitle
 syntax match sectionTitle "\S.*:\s*$"
-highlight sectionTitle guifg=blue guibg=NONE gui=bold,underline ctermfg=blue ctermbg=NONE cterm=bold,underline
+highlight sectionTitle guifg=blue guibg=darkgrey gui=bold,underline ctermfg=blue ctermbg=NONE cterm=bold,underline
+
+highlight Folded guifg=black guibg=grey ctermfg=black ctermbg=grey
 
 let b:current_syntax = "todo"
 plugin/todo.vim	[[[1
 73
-" Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+" Copyright © 2013, 2016 Christophe Delord (cdelord.fr)
 " This work is free. You can redistribute it and/or modify it under the
 " terms of the Do What The Fuck You Want To Public License, Version 2,
 " as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
@@ -178,7 +180,7 @@ unlet s:cpo_save
 
 ftdetect/todo.vim	[[[1
 9
-" Copyright © 2013, 2016 Christophe Delord (cdsoft.fr)
+" Copyright © 2013, 2016 Christophe Delord (cdelord.fr)
 " This work is free. You can redistribute it and/or modify it under the
 " terms of the Do What The Fuck You Want To Public License, Version 2,
 " as published by Sam Hocevar. See http://www.wtfpl.net/ for more details.
