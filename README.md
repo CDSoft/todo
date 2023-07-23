@@ -4,7 +4,7 @@ Todo plugin for Vim
 This Vim plugin is based on vim-task (github.com/samsonw/vim-task).
 It helps managing todo lists within Vim in a very basic but efficient way.
 
-The latest version of todo can be found here: cdelord.fr/todo
+The latest version of todo can be found here: <https://github.com/CDSoft/todo>
 
 Installation
 ------------
