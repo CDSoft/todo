@@ -5,7 +5,7 @@ It helps managing todo lists within Vim in a very basic but efficient way.
 
 The latest version of todo can be found here: cdelord.fr/todo
 
-Contributions are possible on GitHub: https://github.com/CDSoft.fr/todo
+Contributions are possible on Codeberg: https://codeberg.org/cdsoft.fr/todo
 
 Installation:
 
